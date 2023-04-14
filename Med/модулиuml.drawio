@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" modified="2023-04-14T18:23:09.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4Lz7rKpctNm5hhMRWL6S" version="21.1.8" type="device">
+  <diagram name="Страница 1" id="R6hIHrMoZ3vY9voCnz1L">
+    <mxGraphModel dx="1300" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FEPYl-iECq7Xgtb647ui-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="550" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-1" value="&amp;lt;&amp;lt; Клиент&amp;gt;&amp;gt;&lt;br&gt;Модуль передачи данных" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-2" value="&amp;lt;&amp;lt; Система &amp;gt;&amp;gt;&lt;br&gt;База данных" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="170" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-4" value="Архитектура информационной системы" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-5" value="Передача данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-6" value="Типизация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-7" value="Подключение к базе данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-8" value="Обработка входных данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-9" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;entryX=0.646;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-6">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="409" y="181" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-10" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;exitX=0.383;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-7">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="421" y="190" as="sourcePoint" />
+            <mxPoint x="370" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-11" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-8">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="470" y="187" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-12" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-13" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="391" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-14" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="411" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-15" value="Получение данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-16" value="&amp;lt;&amp;lt; Cистема &amp;gt;&amp;gt;&lt;br&gt;Модуль получения данных" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-5" target="FEPYl-iECq7Xgtb647ui-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="413" as="sourcePoint" />
+            <mxPoint x="235" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-19" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-5">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="496" y="199" as="sourcePoint" />
+            <mxPoint x="594" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-20" value="&amp;lt;&quot;extended&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="386" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-21" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-5" target="FEPYl-iECq7Xgtb647ui-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="227" as="sourcePoint" />
+            <mxPoint x="235" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-22" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="225" as="sourcePoint" />
+            <mxPoint x="820" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-23" value="&amp;lt;&amp;lt; Клиент &amp;gt;&amp;gt;&lt;br&gt;Графический модуль" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="550" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-26" value="Вывод пользовательского интерфейса" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-27" value="Преобразование данных в файлы PDF и CSV" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="609" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-28" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-26" target="FEPYl-iECq7Xgtb647ui-27">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="591" y="564" as="sourcePoint" />
+            <mxPoint x="689" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-29" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-26" target="FEPYl-iECq7Xgtb647ui-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="397" as="sourcePoint" />
+            <mxPoint x="235" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-31" value="Получение данных в базу данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-32" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="519" y="381" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-34" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-31">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="484" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-36" value="Обработка входных данных" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-37" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-15" target="FEPYl-iECq7Xgtb647ui-36">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="470" y="420" as="sourcePoint" />
+            <mxPoint x="487" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-38" value="&amp;lt;&quot;included&quot;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="285" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-43" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="341" width="55" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-1" target="FEPYl-iECq7Xgtb647ui-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="215" as="sourcePoint" />
+            <mxPoint x="235" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FEPYl-iECq7Xgtb647ui-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="FEPYl-iECq7Xgtb647ui-23" target="FEPYl-iECq7Xgtb647ui-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="217" as="sourcePoint" />
+            <mxPoint x="85" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
